@@ -16,6 +16,7 @@ jobs:
           # App endpoints (the ones that actually keep the Space alive)
           - https://trojan9-fake-media-detector.hf.space/
           - https://trojan9-mlp-jailbreak-detector-text.hf.space/
+          - https://trojan9-metaboniche.hf.space/
     steps:
       - name: Ping ${{ matrix.url }}
         run: |
